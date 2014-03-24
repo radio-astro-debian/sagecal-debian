@@ -1,3 +1,9 @@
+sagecal (0.1-4precise1) precise; urgency=low
+
+  * fix patch mistake
+
+ -- Gijs Molenaar <gijs@pythonic.nl>  Mon, 24 Mar 2014 17:10:27 +0200
+
 sagecal (0.1-3precise1) precise; urgency=low
 
   * more pkg-config
