@@ -1,3 +1,9 @@
+sagecal (0.1-2precise1) precise; urgency=low
+
+  * fix 32bit build by using pkg-config
+
+ -- Gijs Molenaar <gijs@pythonic.nl>  Mon, 24 Mar 2014 13:07:26 +0000
+
 sagecal (0.1-1precise1) precise; urgency=low
 
   * Initial release
