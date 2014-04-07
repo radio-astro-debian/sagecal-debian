@@ -1,3 +1,9 @@
+sagecal (0.1-2trusty) trusty; urgency=low
+
+  * switch to gcc and g++ 4.6
+
+ -- Gijs Molenaar <gijs@pythonic.nl>  Mon, 07 Apr 2014 14:37:29 +0200
+
 sagecal (0.1-1trusty) trusty; urgency=low
 
   * build for trusty

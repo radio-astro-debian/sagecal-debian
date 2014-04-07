@@ -3,7 +3,7 @@ Section: science
 Priority: extra
 Maintainer: Gijs Molenaar <gijs@pythonic.nl>
 Build-Depends: debhelper (>= 8.0.0), liblapack-dev, libcasacore-dev,
- libglib2.0-dev, gfortran, libcfitsio3-dev, libopenblas-dev, quilt
+ libglib2.0-dev, gfortran-4.6, libcfitsio3-dev, libopenblas-dev, quilt, g++-4.6, gcc-4.6
 Standards-Version: 3.9.2
 Homepage: https://sourceforge.net/projects/sagecal/
 

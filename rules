@@ -4,13 +4,14 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
+
 %:
 	dh $@ --parallel  --sourcedirectory=src
 
 override_dh_auto_build:
-	dh_auto_build
-	cd src/lib && make
-	cd src/MS && make
+	dh_auto_build 
+	cd src/lib && make CXX=g++-4.6 CC=gcc-4.6
+	cd src/MS && make CXX=g++-4.6 CC=gcc-4.6
 
 override_dh_auto_clean:
 	dh_auto_clean
