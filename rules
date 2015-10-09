@@ -10,10 +10,10 @@
 
 override_dh_auto_build:
 	dh_auto_build 
-	cd src/lib && make CXX=g++-4.6 CC=gcc-4.6
-	cd src/MS && make CXX=g++-4.6 CC=gcc-4.6
+	cd src/lib && make 
+	cd src/MS && make
 
 override_dh_auto_clean:
 	dh_auto_clean
-	cd src/lib && make clean
-	cd src/MS && make clean
+	cd src/lib && rm -rf *.o *.a
+	cd src/MS && rm -rf *.o sagecal
